@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.player{
+    width: 400px;
+    height: 650px;
+    background-color:#2A2141;
+    border-radius: 12px;
+}
+
+.parte1{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+}
+
+.parte2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    /* background-color: rgb(255, 0, 0); */
+    text-align: left;
+    gap: 32px;
+    padding: 29px 0;
+    color: azure;
+}
+
+
+.img{
+    width: 100%; 
+    padding-top: 80px;
+    /* background-color: rgb(17, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img_capa{
+    width: 60%;
+    border-radius: 15px;
+    
+}
+
+.titulos{
+    width: 100%;
+    /* padding: 29px 0px; */
+    /* background-color: chartreuse; */
+    color: azure;
+}
+
+.nome_musica{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 500;
+}
+
+.banda{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 300;
+    font-size: 25px;
+    opacity: 67%;
+    margin-top: 15px;
+}
+
+#play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 30px;
+}
+
+#full {
+    width: 100%;
+    background-color: #5e5c84;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#rolando{
+    height: 10px;
+    background-color: #d9d9d9;
+    border-radius: 5px 0 0 5px;
+    width: 80%; /* Altere este valor para representar o progresso */
+    transition: width 0.2s ease-in-out;
+}
+
+#tempo {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+#tempo li {
+    list-style: none;
+    font-size: 20px;
+    opacity: 70%;
+    font-weight: 300;
+    margin-top: 12px;
+}
